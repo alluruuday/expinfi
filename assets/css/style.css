@@ -840,10 +840,9 @@ section {
 
 .clients .owl-item img {
   width: 75%;
-  opacity: 0.5;
+  opacity: 1;
   transition: ease-in-out 0.3s;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  
 }
 
 .clients .owl-item img:hover {
