@@ -1453,7 +1453,7 @@ section {
 }
 
 .pricing .btn-buy:hover {
-  background: #ff7e54;
+  background: #c34262;
 }
 
 .pricing .featured h3 {
@@ -1665,7 +1665,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #ff7e54;
+  background: #c34262;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1887,8 +1887,8 @@ section {
 }
 
 .blog .entry-single .entry-title {
-  font-size: 32px;
-  line-height: 38px;
+  font-size: 50px;
+  line-height: 50px;
 }
 
 .blog .blog-author {
@@ -2354,7 +2354,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #c34262;
+  background: #5f2f87;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -2367,19 +2367,22 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #ff7e54;
+  background: #c34262;
   color: #fff;
   text-decoration: none;
 }
 
 
-
-    #owl-demo .item{
-      margin: 3px;
-    }
     #owl-demo .item img{
-      display: block;
-      width: 100%;
-      height: auto;
+        display: block;
+        width: 100%;
+        height: auto;
     }
+
+
+
+
+
+
+
 
