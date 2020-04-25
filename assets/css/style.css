@@ -381,12 +381,10 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   right: 0;
-  width: 100%;
 }
 
 #hero .container {
   z-index: 2;
-  width: 100%;
 }
 
 #hero h1 {
@@ -443,7 +441,6 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 1024px) {
   #hero {
     margin-bottom: -150px;
-    width: 100%;
   }
 }
 
@@ -469,13 +466,21 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #headerr, #hero {
- /*  background: url("Website Video.mp4") center center;
+/*  background: url("Website Video.mp4") center center;
   */
   /*background-size: cover;
   */
+<<<<<<< HEAD
+  
   z-index: 1;
   padding: 0;
   margin-bottom: -120px;
+  background-color: white;
+=======
+  z-index: 1;
+  padding: 0;
+  margin-bottom: -120px;
+>>>>>>> 7bd5e03842c8b68e7c136395e95a86b17506f394
   height: 75vh;
   min-height: 25rem;
   width: 100%;
@@ -2377,25 +2382,6 @@ section {
         
     }
 
-
- .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create two equal columns that sits next to each other */
-.column {
-  flex: 20%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  margin-left: 10px;
-  margin-right: 10px;
-  vertical-align: middle;
-}
 
 
 
