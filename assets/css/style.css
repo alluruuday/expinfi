@@ -61,6 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
+  position:fixed;
   background: #5f2f87;
   font-size: 14px;
   padding: 0;
@@ -112,6 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
+  position: relative;
   height: 70px;
   transition: all 0.7s;
   z-index: 997;
@@ -471,11 +473,10 @@ h1, h2, h3, h4, h5, h6 {
   */
   /*background-size: cover;
   */
-  position: relative;
   z-index: 1;
   padding: 0;
   margin-bottom: -120px;
-  height: 100vh;
+  height: 75vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
