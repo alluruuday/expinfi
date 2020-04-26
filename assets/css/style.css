@@ -515,7 +515,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (pointer: coarse) and (hover: none) {
   #headerr {
-    background: url('Website Video.mp4') black no-repeat center center scroll;
+    background: url('Website Video.mp4') black no-repeat center center;
   }
   #headerr video {
     display: none;
@@ -590,13 +590,13 @@ section {
 # Why Us
 --------------------------------------------------------------*/
 .why-us {
-  padding: 0 0 30px 0;
+  padding: 0 0 3px 0;
   position: relative;
   z-index: 2;
 }
 
 .why-us .content {
-  padding: 30px;
+  padding: 20px;
   background: #c34262;
   border-radius: 4px;
   color: #fff;
@@ -1092,92 +1092,7 @@ section {
     width: 80%;
   }
 }
-/*numbers*/
-/*
-.section-headerrr h3 {
-  font-size: 32px;
-  color: #635551;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-  position: relative;
-  padding-bottom: 15px;
-}
 
-.section-headerrr h3::before {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 120px;
-  height: 1px;
-  background: #ddd;
-  bottom: 1px;
-  left: calc(50% - 60px);
-}
-
-.section-headerrr h3::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 40px;
-  height: 3px;
-  background: #c34262;
-  bottom: 0;
-  left: calc(50% - 20px);
-}
-
-.section-headerrr p {
-  text-align: center;
-  padding-bottom: 30px;
-  color: #333;
-}
-
-#facts {
-  background: url("../img/facts-bg.jpg") center top no-repeat fixed;
-  background-size: cover;
-  padding: 60px 0 0 0;
-  position: relative;
-}
-
-#facts::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(255, 255, 255, 0.88);
-  z-index: 9;
-}
-
-#facts .container {
-  position: relative;
-  z-index: 10;
-}
-
-#facts .counters span {
-  
-  font-weight: bold;
-  font-size: 48px;
-  display: block;
-  color: #c34262;
-}
-
-#facts .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  color: #111;
-}
-
-#facts .facts-img {
-  text-align: center;
-  padding-top: 30px;
-}
-
-*/
-/*numbers end*/
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -2407,11 +2322,10 @@ section {
 
 
 
-.container {
-  min-height: 100%
-}
+
 .collaboration {
-  padding: 40px 0
+  padding: 40px 0,
+
 }
 .collaboration h2 {
   margin-top: 10px;
@@ -2431,7 +2345,8 @@ section {
   bottom: -5px;
   left: calc(50% - 50px);
   width: 100px;
-  border-bottom: 3px
+  border-bottom: 3px,
+
 }
 
 .collaboration .all-project {
@@ -2475,7 +2390,7 @@ section {
 }
 .collaboration .each-project .inner-wrap p {
   font-family: Roboto, sans-serif;
-  font-size: 17px;
+  font-size: auto;
   color: #fff;
   letter-spacing: 1px;
   padding: 80px 0;
@@ -2488,14 +2403,14 @@ section {
 }
 .collaboration .each-project:hover .inner-wrap p {
   background-color: transparent;
-  font-size: 15px;
+  font-size: auto;
   color: #fff;
   padding: 10px 10px 15px
 }
 
 .twice_wise .each-project .inner-wrap p {
   background-color: transparent;
-  font-size: 15px;
+  font-size: auto;
   color: #fff;
   padding: 10px 10px 15px
 }
@@ -2506,7 +2421,7 @@ section {
 
 .collaboration .each-project:hover .inner-wrap p {
   background-color: transparent;
-  font-size: 15px;
+  font-size: auto;
   color: #fff;
   padding: 10px 10px 15px
 }
@@ -2516,6 +2431,10 @@ section {
 .flaticon-online-collaboration:before {
   content: "\f10a"
 }
+.fa-pagelines:before {
+  content: "\f18c"
+}
+
 
 
 
@@ -2533,6 +2452,5 @@ section {
   max-width: 100%;
   height: auto
 }
-
 
 
