@@ -592,7 +592,7 @@ section {
 .why-us {
   padding: 0 0 30px 0;
   position: relative;
-  z-index: 3;
+  z-index: 2;
 }
 
 .why-us .content {
@@ -1188,6 +1188,7 @@ section {
   text-align: center;
   border-radius: 50px;
   padding: 2px 15px;
+
 }
 
 .Portfolio #portfolio-flters li {
@@ -1211,6 +1212,7 @@ section {
 
 .Portfolio #portfolio-flters li:last-child {
   margin-right: 0;
+
 }
 
 .Portfolio .portfolio-item {
@@ -1227,6 +1229,7 @@ section {
   transition: all ease-in-out 0.3s;
   background: rgba(255, 255, 255, 0.9);
   padding: 15px;
+
 }
 
 .Portfolio .portfolio-item .portfolio-info h4 {
@@ -1248,10 +1251,12 @@ section {
   font-size: 24px;
   top: calc(50% - 18px);
   color: #635551;
+
 }
 
 .Portfolio .portfolio-item .portfolio-info .preview-link:hover, .Portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: #c34262;
+  
 }
 
 .Portfolio .portfolio-item .portfolio-info .details-link {
@@ -2397,9 +2402,137 @@ section {
   vertical-align: middle;
 }
 
+/* some more from here and there*/
 
 
 
+
+.container {
+  min-height: 100%
+}
+.collaboration {
+  padding: 40px 0
+}
+.collaboration h2 {
+  margin-top: 10px;
+  color: #2c8cce;
+  text-align: center;
+  margin-bottom: 40px
+}
+
+.collaboration h2 span {
+  position: relative;
+  padding-bottom: 10px
+}
+
+.collaboration h2 span:after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: calc(50% - 50px);
+  width: 100px;
+  border-bottom: 3px
+}
+
+.collaboration .all-project {
+  padding: 0;
+  text-align: center
+}
+
+.collaboration .all-project li {
+  width: 300px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 3px
+}
+
+.collaboration .each-project {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-height: 170px;
+  -webkit-transition: all .55s ease-in-out;
+  -moz-transition: all .55s ease-in-out;
+  -ms-transition: all .55s ease-in-out;
+  -o-transition: all .55s ease-in-out;
+  transition: all .55s ease-in-out
+}
+
+
+.collaboration .each-project .inner-wrap {
+  position: absolute;
+  background-color: rgba(95, 47, 135, .4);
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  z-index: 100;
+  -webkit-transition: all .55s ease-in-out;
+  -moz-transition: all .55s ease-in-out;
+  -ms-transition: all .55s ease-in-out;
+  -o-transition: all .55s ease-in-out;
+  transition: all .55s ease-in-out
+}
+.collaboration .each-project .inner-wrap p {
+  font-family: Roboto, sans-serif;
+  font-size: 17px;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 80px 0;
+  margin-bottom: 0;
+  -webkit-transition: all .55s ease-in-out;
+  -moz-transition: all .55s ease-in-out;
+  -ms-transition: all .55s ease-in-out;
+  -o-transition: all .55s ease-in-out;
+  transition: all .55s ease-in-out
+}
+.collaboration .each-project:hover .inner-wrap p {
+  background-color: transparent;
+  font-size: 15px;
+  color: #fff;
+  padding: 10px 10px 15px
+}
+
+.twice_wise .each-project .inner-wrap p {
+  background-color: transparent;
+  font-size: 15px;
+  color: #fff;
+  padding: 10px 10px 15px
+}
+
+.twice_wise .each-project:hover .view {
+  display: block
+}
+
+.collaboration .each-project:hover .inner-wrap p {
+  background-color: transparent;
+  font-size: 15px;
+  color: #fff;
+  padding: 10px 10px 15px
+}
+.flaticon-collaboration:before {
+  content: "\f101"
+}
+.flaticon-online-collaboration:before {
+  content: "\f10a"
+}
+
+
+
+
+
+
+
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+  display: block;
+  max-width: 100%;
+  height: auto
+}
 
 
 
