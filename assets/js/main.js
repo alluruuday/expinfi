@@ -139,46 +139,14 @@
       }
     }
   });
-
-  //images carousel
-
-
-    $(document).ready(function() {
-     
-      $("#owl-demo").owlCarousel({
-     
-          navigation : true, // Show next and prev buttons
-          slideSpeed : 300,
-          paginationSpeed : 400,
-          singleItem:true,
-          autoPlay:true,
-          items:3,
-          mouseDrag:true,
-          
-     
-          // "singleItem:true" is a shortcut for:
-          // items : 1, 
-          // itemsDesktop : false,
-          // itemsDesktopSmall : false,
-          // itemsTablet: false,
-          // itemsMobile : false
-     
-      });
-     
-    });
-
-
-
-
-
+ 
   // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
+   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,
     items: 1
   });
-
 
   // Porfolio isotope and filter
   $(window).on('load', function() {

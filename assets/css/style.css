@@ -64,9 +64,9 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   position: relative;
   height: 70px;
-  transition: all 0.7s;
+  transition: all 0.5s;
   z-index: 997;
-  transition: all 0.7s;
+  transition: all 0.5s;
   padding: 10px 0;
   background: #5f2f87;
 }
