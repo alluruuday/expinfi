@@ -546,7 +546,7 @@ section {
 .why-us {
   padding: 0 0 3px 0;
   position: relative;
-  z-index: 2;
+  z-index: 5;
 }
 
 .why-us .content {
