@@ -966,12 +966,13 @@ section {
   .section-bg-new-title h2 {
   font-size: 32px;
   text-align: center;
+  background-color: transparent;
   padding-bottom: 30px;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom:0px;
   padding-bottom: 0;
   font-family: "Poppins", sans-serif;
-  color: #c34262;
+  color: black;
 }
 .section-bg-new img:hover {
   -webkit-filter: none;
