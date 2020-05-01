@@ -960,19 +960,18 @@ section {
   background-position: center center;
   background-size: cover;
   position: relative;
-    -webkit-filter: grayscale(20%);
+  -webkit-filter: grayscale(20%);
   filter: grayscale(20%);
   } 
   .section-bg-new-title h2 {
   font-size: 32px;
   text-align: center;
-  background-color: transparent;
   padding-bottom: 30px;
   font-weight: 500;
   margin-bottom:0px;
   padding-bottom: 0;
   font-family: "Poppins", sans-serif;
-  color: black;
+  color: white;
 }
 .section-bg-new img:hover {
   -webkit-filter: none;
