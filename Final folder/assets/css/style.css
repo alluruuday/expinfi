@@ -462,8 +462,8 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
 /*  height: 100%;
   width: 100%;
-*/  background-color: black;
-  opacity: 0.1;
+*/background-color: black;
+  opacity: 0.8;
   z-index: 1;
 }
 
