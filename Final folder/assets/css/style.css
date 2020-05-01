@@ -2476,3 +2476,7 @@ c
   cursor: pointer;
   border-radius: 10px;
 }
+.buttonn:hover {
+color:white;
+
+}
