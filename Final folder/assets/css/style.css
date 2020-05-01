@@ -2201,7 +2201,7 @@ line-height: 1;
 #footer .footer-top .footer-links ul li:first-child {
   padding-top: 0;
 }
-
+c
 #footer .footer-top .footer-links ul a {
   color: #656262;
   transition: 0.3s;
@@ -2462,4 +2462,17 @@ line-height: 1;
 
 .about-video iframe {
   border: 2px solid #ddd
+}
+.buttonn {
+  background-color: #c34262;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
 }
