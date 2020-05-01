@@ -978,6 +978,16 @@ section {
   filter: none;
   opacity: 1;
 }
+.section-bg-new-courses{
+background-color: lightblue;
+line-height: 1;
+}
+
+.class-important img{
+
+  width:100%;
+
+}
 
 /*--------------------------------------------------------------
 # Testimonials
