@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Mobile Navigation */
 .mobile-nav-toggle {
-  position: relative;
+  position: fixed;
   right: 15px;
   top: 20px;
   z-index: 9998;
@@ -224,11 +224,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #c34262;
+  color: #ff5821;
 }
 
 .mobile-nav {
-  position: relative;
+  position: fixed;
   top: 55px;
   right: 15px;
   bottom: 15px;
@@ -313,7 +313,6 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
 }
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -678,7 +677,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/about-img.jpg") center center no-repeat;
+  background: url("../img/doodle.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
